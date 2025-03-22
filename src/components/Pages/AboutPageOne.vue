@@ -1,3 +1,12 @@
+<template>
+    <div>
+        <Navbar />
+        <PageBanner />
+        <WeHelpCompanies />
+        <MarketingGoals />
+        <Footer />
+    </div>
+</template>
 <script>
     import Navbar from '../Layout/nairiti-navbar.vue'
     import PageBanner from '../AboutOne/PageBanner.vue'
