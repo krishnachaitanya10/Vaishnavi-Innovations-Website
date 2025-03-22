@@ -6,15 +6,15 @@
   "scripts": {
     "dev": "vite",
     "serve": "vite preview",
-  "build": "vite build",
-  "deploy": "npx wrangler deploy --site dist"
-
+    "build": "vite build",
+    "deploy": "npx wrangler deploy --site dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.0.0",
+    "sass": "^1.86.0",
     "vue": "^3.0.0"
   },
   "devDependencies": {

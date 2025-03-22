@@ -1,19 +1,16 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import router from "./router";
+import router from "./router"; // Import router
 import BootstrapVueNext from "bootstrap-vue-next";
 
-// Import Bootstrap & Styles
-import "bootstrap/dist/css/bootstrap.min.css";  // Ensure it's minified
+// Import Styles
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap-vue-next/dist/bootstrap-vue-next.css";
 import "./assets/css/boxicons.min.css";
-import "./assets/custom.scss";
+import "./assets/custom.scss"; 
 
 const app = createApp(App);
-
-// Use Plugins
-app.use(router);
+app.use(router); // Use router
 app.use(BootstrapVueNext);
-
-// Mount the Vue App
-app.mount("#app");
+app.mount("#app"); // Mount the app
