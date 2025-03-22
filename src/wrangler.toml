@@ -1,3 +1,7 @@
-name = "vaishnavi-innovations-worker"
-main = "src/main.js"
-compatibility_date = "2025-03-22"
+name = "your-project-name"
+main = "./dist/index.js"  # Make sure this file exists
+compatibility_date = "2024-03-22"
+
+[build]
+command = "npm run build"  # Your build command
+upload.format = "modules"   # Or "service-worker" depending on your setup

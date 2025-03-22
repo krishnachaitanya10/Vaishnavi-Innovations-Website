@@ -12,9 +12,9 @@
 // import Navbar from '../Layout/nairiti-navbar'
 // import PageBanner from '../ContactOne/PageBanner'
 // import ContactContent from '../ContactOne/ContactContent'
-import Navbar from '@/components/Layout/nairiti-navbar.vue';
-import PageBanner from '@/components/ContactOne/PageBanner.vue';
-import ContactContent from '@/components/ContactOne/ContactContent.vue';
+import Navbar from '../Layout/nairiti-navbar.vue';
+import PageBanner from '../ContactOne/PageBanner.vue';
+import ContactContent from '../ContactOne/ContactContent.vue';
 import Footer from '../Layout/Footer.vue'
 
 export default {

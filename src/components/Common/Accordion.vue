@@ -1,24 +1,20 @@
 <template>
-    <ul class="accordion">
+    <div class="accordion">
         <slot></slot>
-    </ul>
+    </div>
 </template>
 
 <script>
 export default {
-  // eslint-disable-next-line vue/multi-word-component-names
-    name: 'Accordion',
-    props: {},
-    data() {
-        return {
-            Accordion: {
-                count: 0,
-                active: null
-            }
-        };
-    },
-    provide() {
-        return { Accordion: this.Accordion };
-    }
-}
+    name: "Accordion"
+};
 </script>
+
+<style scoped>
+.accordion {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+</style>
