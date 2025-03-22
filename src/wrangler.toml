@@ -1,7 +1,12 @@
-name = "your-project-name"
-main = "./dist/index.js"  # Make sure this file exists
-compatibility_date = "2024-03-22"
+name = "vaishnavi-innovations-website"
+type = "javascript"
+
+account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+workers_dev = true
+route = ""
+zone_id = ""
 
 [build]
-command = "npm run build"  # Your build command
-upload.format = "modules"   # Or "service-worker" depending on your setup
+command = "npm run build"
+upload.format = "modules"
+upload.dir = "./dist"
