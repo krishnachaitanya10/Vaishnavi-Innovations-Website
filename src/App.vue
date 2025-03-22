@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Preloader v-if="isLoadin" />
+    <Preloader v-if="isLoading" />
     <router-view v-slot="{ Component }">
       <transition name="route" appear>
         <component :is="Component" />
@@ -12,8 +12,9 @@
 </template>
 
 <script>
-import Preloader from "./components/Layout/Preloader";
-import GoTop from "./components/Layout/GoTop";
+import Preloader from "./components/Layout/Preloader.vue";
+import GoTop from "./components/Layout/GoTop.vue";
+
 
 export default {
   name: "App",

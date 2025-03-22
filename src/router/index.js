@@ -1,14 +1,14 @@
 import { createWebHistory, createRouter } from "vue-router";
 
 // All Pages
-import HomePageFour from "../components/Pages/HomePageFour";
-import AboutPageOne from "../components/Pages/AboutPageOne";
-import ContactPageOne from "../components/Pages/ContactPageOne";
+import HomePageFour from "../components/Pages/HomePageFour.vue";
+import aboutpageone from "../components/Pages/AboutPageOne.vue";
+import contactpageone from "../components/Pages/ContactPageOne.vue";
 
 const routes = [
   { path: "/home-four", component: HomePageFour },
-  { path: "/about-one", component: AboutPageOne },
-  { path: "/contact-one", component: ContactPageOne },
+  { path: "/about-one", component: aboutpageone },
+  { path: "/contact-one", component: contactpageone },
 ];
 
 

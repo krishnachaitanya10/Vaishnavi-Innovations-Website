@@ -9,11 +9,13 @@
 </template>
 
 <script>
-import Navbar from '../Layout/nairiti-navbar'
-import PageBanner from '../ContactOne/PageBanner'
-import ContactContent from '../ContactOne/ContactContent'
-// import GetOnlyNewUpdate from '../Common/GetOnlyNewUpdate'
-import Footer from '../Layout/Footer'
+// import Navbar from '../Layout/nairiti-navbar'
+// import PageBanner from '../ContactOne/PageBanner'
+// import ContactContent from '../ContactOne/ContactContent'
+import Navbar from '@/components/Layout/nairiti-navbar.vue';
+import PageBanner from '@/components/ContactOne/PageBanner.vue';
+import ContactContent from '@/components/ContactOne/ContactContent.vue';
+import Footer from '../Layout/Footer.vue'
 
 export default {
     name: 'ContactPageOne',
