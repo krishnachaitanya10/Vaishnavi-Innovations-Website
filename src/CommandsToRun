@@ -1,0 +1,2 @@
+npm run dev  # (for Vite projects)
+npm run serve  # (for Vue CLI projects)
