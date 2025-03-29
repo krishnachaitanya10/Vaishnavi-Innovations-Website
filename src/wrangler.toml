@@ -1,12 +1,18 @@
 name = "vaishnavi-innovations-website"
-type = "javascript"
-
-account_id = "YOUR_CLOUDFLARE_ACCOUNT_ID"
+main = "./dist/assets/index.js"  # Path to your main JS file in dist
+compatibility_date = "2025-03-29"
 workers_dev = true
-route = ""
-zone_id = ""
 
 [build]
 command = "npm run build"
 upload.format = "modules"
-upload.dir = "./dist"
+# Remove the upload.dir since we're using modules format
+
+[site]
+bucket = "./dist"
+entry-point = "workers-site"  # This should match your worker script location
+
+[[rules]]
+globs = ["**/*"]
+type = "fallback"
+fallback.status_code = 200
