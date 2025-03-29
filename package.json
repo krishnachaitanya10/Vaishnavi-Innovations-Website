@@ -7,7 +7,7 @@
     "dev": "vite",
     "serve": "vite preview",
     "build": "vite build",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo '/* /index.html 200' > ./dist/_redirects",
     "deploy": "npx wrangler pages deploy ./dist"
   },
   "keywords": [],
