@@ -103,12 +103,12 @@
                 <li>
                   <i class="flaticon-call" style="color: #f24a25;"></i>
                   <span>Phone</span>
-                  <a href="tel:(123) 456-7890">(123) 456-7890</a>
+                  <a href="tel: 9703046062"> 9703046062</a>
                 </li>
                 <li>
                   <i class="flaticon-email-1" style="color: #f24a25;"></i>
                   <span>Email</span>
-                  <a href="mailto:info@nairiti.com">info@nairiti.com</a>
+                  <a href="mailto:santosh@nairiti.com">santosh@nairiti.com</a>
                 </li>
                 <li>
                   <i class="flaticon-pin" style="color: #f24a25;"></i>

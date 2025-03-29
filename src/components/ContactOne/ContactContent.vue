@@ -9,7 +9,7 @@
                         </div>
 
                         <h3>E-MAIL US</h3>
-                        <p><a href="mailto:info@nairiti.com">info@nairiti.com</a></p>
+                        <p><a href="mailto:santosh@nairiti.com">santosh@nairiti.com</a></p>
                     </div>
                 </div>
 
@@ -31,7 +31,7 @@
                         </div>
 
                         <h3>LET'S TALK</h3>
-                        <p><a href="tel:(123) 456-7890">(123) 456-7890</a></p>
+                        <p><a href="tel: 9703046062"> 9703046062</a></p>
                     </div>
                 </div>
             </div>

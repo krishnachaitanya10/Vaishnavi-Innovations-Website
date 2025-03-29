@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!-- latest -->
         <Navbar />
         <MainBanner />
         <WeHelpCompanies />
